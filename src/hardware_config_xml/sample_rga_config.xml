@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ConfigurationData>
+   <CommunicationParameters
+      Port="COM2"
+      Baud="115200"
+      PacketFrequency="5.0"
+      PacketTimeout="1.0"
+      CommunicationsType="1"
+      UserFrequency="5.0"
+      UserTimeout="1.0"
+      NamedPort=""
+   />
+
+   <ConfigurationParameters
+      Filename="C:\Users\icelabact\Documents\EXTORR\sn6495_factory_cal.cfg"
+      TimeStamp="07e5000400030015000a0036001e0361"
+      DateTime="4/21/2021 10:54:30 AM"
+      Caption="6495"
+      Serial="6495"
+      Model="300"
+   />
+
+   <ScanParameters
+      ScanSpeed="48"
+      LowMass="1"
+      HighMass="100"
+      SamplesPerAMU="10"
+   />
+
+   <OperatingParameters
+      Mode="Mass sweep"
+      Focus1="-20"
+      Focus2="-68"
+      ElectronEnergy="70"
+      FilamentEmission="2.5"
+      AutoZero="Off"
+      ScanMode="Sweep"
+      Filament="0"
+      PressureUnits="Torr"
+      EnableElectronMultiplier="1"
+      MultiplierVoltage="1300"
+      FilamentForceOffStartup="0"
+   />
+
+   <CalibrationParameters
+      LowCalMass="1"
+      LowCalResolution="625"
+      LowCalPosition="0.34"
+      LowCalIonEnergy="5.0"
+      HighCalMass="300"
+      HighCalResolution="2095"
+      HighCalPosition="0.10"
+      HighCalIonEnergy="5.0"
+      TotalAmpOffset="2000"
+      PartialAmpOffset="2001"
+      TotalIntegratingCap="10.00"
+      PartialIntegratingCap="3.00"
+      RFSettleTime="50"
+      SWSettleTime="10"
+      Pirani1ATM="1.93800"
+      PiraniZero="0.29200"
+      PiraniAutoRecalibrate="0"
+      PartialSensitivity="6.00e-004"
+      TotalSensitivity="1.00e+001"
+      debug="0"
+   />
+
+   <LogFileParameters
+      Mode="1"
+      FileName="Y:\CLASSE 357\RGA mass sweeps 2021\4-12-2021 RGA_background_no_rotary stage_no_Janis_nstalled..csv"
+      DirectoryName="Y:\CLASSE 357\DATA\2020\September\20200910\20200910_Ambient_Chamber_CH4leakinchamber"
+      CreationOption="3"
+      NSweeps="20"
+      FileRecordingOn="0"
+   />
+
+   <MassTableParameters
+      Samples="100"
+      AudioOutput="0"
+   > 
+       <Mass1
+            Enabled="0"
+            Sound="0"
+            Mass="2"
+            Description=""
+            Color="Red"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+       <Mass2
+            Enabled="0"
+            Sound="0"
+            Mass="18"
+            Description=""
+            Color="Blue"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+       <Mass3
+            Enabled="0"
+            Sound="0"
+            Mass="28"
+            Description=""
+            Color="Aqua"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+       <Mass4
+            Enabled="1"
+            Sound="0"
+            Mass="32"
+            Description=""
+            Color="Orange"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+       <Mass5
+            Enabled="0"
+            Sound="0"
+            Mass="44"
+            Description=""
+            Color="Fuschia"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+       <Mass6
+            Enabled="0"
+            Sound="0"
+            Mass="58"
+            Description=""
+            Color="Black"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+       <Mass7
+            Enabled="0"
+            Sound="0"
+            Mass="40"
+            Description=""
+            Color="Maroon"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+       <Mass8
+            Enabled="0"
+            Sound="0"
+            Mass="16"
+            Description=""
+            Color="Pink"
+            Dwell="50 ms"
+            HighWarning="0"
+            HighAlarm="0"
+            LowWarning="0"
+            LowAlarm="0"
+       />
+   </MassTableParameters>
+
+   <PrintingParameters
+      InvertColors="1"
+      ShowConfigurationFile="1"
+      ShowDescription="1"
+      ShowTotalPressure="1"
+      ShowPiraniPressure="1"
+      DateFormat=""
+      TimeFormat=""
+   />
+
+   <GraphParametersData>
+      <GraphParameters
+             HScale="1"
+      >
+          <Y-Axis
+               ScaleAbsolute="728"
+               ZeroAbsolute="16"
+               Mode="1"
+          />
+      </GraphParameters>
+      <GraphParameters
+             HScale="1"
+      >
+          <Y-Axis
+               ScaleAbsolute="712"
+               ZeroAbsolute="0"
+               Mode="0"
+          />
+      </GraphParameters>
+   </GraphParametersData>
+
+   <WindowParameters>
+       <Frame
+            flags="2"
+            showCmd="3"
+            ptMinPosition.x="-1"
+            ptMinPosition.y="-1"
+            ptMaxPosition.x="-8"
+            ptMaxPosition.y="-30"
+            rcNormalPosition.left="0"
+            rcNormalPosition.top="0"
+            rcNormalPosition.right="2556"
+            rcNormalPosition.bottom="1310"
+       />
+       <Setup
+            flags="0"
+            showCmd="1"
+            ptMinPosition.x="-1"
+            ptMinPosition.y="-1"
+            ptMaxPosition.x="-1"
+            ptMaxPosition.y="-1"
+            rcNormalPosition.left="1871"
+            rcNormalPosition.top="50"
+            rcNormalPosition.right="2381"
+            rcNormalPosition.bottom="1021"
+       />
+       <Main
+            flags="0"
+            showCmd="1"
+            ptMinPosition.x="-32000"
+            ptMinPosition.y="-32000"
+            ptMaxPosition.x="-1"
+            ptMaxPosition.y="-1"
+            rcNormalPosition.left="518"
+            rcNormalPosition.top="125"
+            rcNormalPosition.right="2919"
+            rcNormalPosition.bottom="1279"
+       />
+   </WindowParameters>
+
+   <PlotParameters
+      BkColor="Black"
+      LineColor="Red"
+      ScanColor="Lime"
+      MouseWheel="0"
+      LogYAxis="1"
+   />
+
+</ConfigurationData>
